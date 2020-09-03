@@ -197,7 +197,7 @@ carl.sayName() // console.logs "carl"
 carl.grade // 8
 ~~~
 
-You can probably figure out what's going on here. After creating the constructor for EighthGrader we set it's prototype to a new object that has a copy of `Student.prototype`.
+You can probably figure out what's going on here. After creating the constructor for EighthGrader we set its prototype to a new object that has a copy of `Student.prototype`.
 
 A warning... this doesn't work:
 
